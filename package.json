@@ -1,20 +1,36 @@
 {
+<<<<<<< HEAD
   "name": "calculator-webservice",
   "version": "1.0.0",
   "description": "",
   "main": "dist/server.js",
   "scripts": {
+=======
+  "name": "calculator-svc",
+  "version": "1.0.0",
+  "description": "service to expose calculator",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node .",
+>>>>>>> f8e214eecd905d3996496473bade816a01a7ef56
     "test": "mocha",
     "test-e2e": "mocha --config ./test/.mocharc.yaml",
     "dev": "tsc -w",
     "dev-test": "tsc -w -p test",
     "build": "tsc",
     "build-test": "tsc -p test",
+<<<<<<< HEAD
     "start": "node .",
     "nodemon": "nodemon --delay 1500ms -e js --watch dist dist/server.js"
   },
   "author": "rismayf",
   "license": "ISC",
+=======
+    "nodemon": "nodemon --delay 1500ms -e js --watch dist ."
+  },
+  "author": "muhammad hasan",
+  "license": "MIT",
+>>>>>>> f8e214eecd905d3996496473bade816a01a7ef56
   "devDependencies": {
     "@types/chai": "^4.2.3",
     "@types/mocha": "^5.2.7",
@@ -27,6 +43,10 @@
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
     "typescript": "^3.6.4"
+<<<<<<< HEAD
   },
   "dependencies": {}
+=======
+  }
+>>>>>>> f8e214eecd905d3996496473bade816a01a7ef56
 }
